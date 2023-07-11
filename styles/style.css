@@ -1,0 +1,38 @@
+/* shared styles */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.text-primary{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473; 
+
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+/* nav related styles */
+nav{
+
+    align-items: center;
+    
+}
+.nav-title {
+    color:#272727;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;         
+}
+nav li {
+    list-style :none;
+}
+
+
