@@ -1,38 +1,165 @@
 /* shared styles */
 
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #ffffff;
     font-size: 15px;
-    font-weight: 700;
-}
-.btn-primary{
-    border-radius: 8px;
-    background: #E55473; 
+    font: weight 100px;
 
+
+}
+
+.primary-btn {
     display: inline-flex;
-    padding: 20px 43px;
+    padding: 20px 47px;
     align-items: flex-start;
     gap: 10px;
-    
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 5px;
+
 }
+
 /* nav related styles */
-nav{
 
-    align-items: center;
-    
-}
 .nav-title {
-    color:#272727;
+    color: #272727;
     display: flex;
+    font-size: 80px;
     width: 708px;
-    flex-direction: column;
-    flex-shrink: 0;         
+    font-weight: 800;
+    margin-bottom: 0px;
 }
+
 nav li {
-    list-style :none;
+    list-style: none;
+    display: flex;
+    padding: 137px 200px 50px;
+
 }
 
+/* header related styles */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+}
 
+.first-part {
+    display: flex;
+}
+
+.img-1 {
+    width: 635px;
+    height: 800px;
+    margin: 50px 240px 0px 145px;
+    justify-content: space-between;
+
+}
+
+/* main bonus styles    */
+.features {
+    padding: 150px;
+    margin-top: px;
+
+
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.feature-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 33px;
+
+
+}
+
+.main-1 {
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+}
+
+.b {
+    display: flex;
+    justify-content: space-around;
+    size: 310px 428px;
+
+}
+
+.img06 {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+
+    margin-left: 10px;
+
+
+}
+
+.img05 {
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+
+.img07 {
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+
+.flower-names {
+    display: flex;
+    justify-content: space-around;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.main-2 {
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.05);
+    max-width: 1440px;
+    height: 320px;
+    margin: 250px;
+    justify-content: space-around; 
+
+}
+.img-57{
+    padding: 100px 100px 100px 100px;
+}
+.img-58{
+    padding: 100px 100px 100px 100px;
+}
+.img-59{
+    padding: 100px 100px 100px 100px;
+}
+.images-flower{
+    display: flex;
+}
+.bonus-style{
+    display: grid;
+}
