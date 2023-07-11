@@ -92,6 +92,7 @@ nav li {
     width: 1920px;
     height: 850px;
     flex-shrink: 0;
+    margin-top: 200px;
 }
 
 .b {
@@ -131,9 +132,7 @@ nav li {
     justify-content: space-around;
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -145,21 +144,144 @@ nav li {
     max-width: 1440px;
     height: 320px;
     margin: 250px;
-    justify-content: space-around; 
+    justify-content: space-around;
 
 }
-.img-57{
+
+.img-57 {
     padding: 100px 100px 100px 100px;
 }
-.img-58{
+
+.img-58 {
     padding: 100px 100px 100px 100px;
 }
-.img-59{
+
+.img-59 {
     padding: 100px 100px 100px 100px;
 }
-.images-flower{
+
+.images-flower {
     display: flex;
 }
-.bonus-style{
-    display: grid;
+
+.last-part {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.social-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.deal {
+    text-align: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 300px;
+
+}
+
+.des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.primary-color {
+    color: #E55473;
+}
+
+.rectangle-images {
+    margin-top: 100px;
+}
+
+.user-info {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: fixed 1400px;
+    height: fixed 449px;
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 10;
+    margin-top: 150px;
+}
+
+.email {
+    font-size: 20px;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: inline-flex;
+    padding: 20px 47px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footerr {
+    background-color: #272727;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 200px;
+}
+
+.title2 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.des2 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.last {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
